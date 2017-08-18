@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+    {% include "csv_paste/partials/csv_input_form.html" %}
+
+    <hr>
+
+    {% if csv_as_rows %}
+        <h2>REPR</h2>
+        <pre>{{ csv_as_rows }}</pre>
+    {% endif %}
+
+    {% if csv_as_json %}
+        <h2>JSON</h2>
+        <pre>{{ csv_as_json }}</pre>
+    {% endif %}
+
+    {% if csv_as_yaml %}
+        <h2>YAML</h2>
+        <pre>{{ csv_as_yaml }}</pre>
+    {% endif %}
+
+{% endblock %}

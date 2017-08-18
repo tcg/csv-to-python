@@ -1,0 +1,26 @@
+
+<form action="/" method="post">
+    {% csrf_token %}
+
+
+    {{ form.non_field_errors }}
+
+    <div class="fieldWrapper form_field_csv_data">
+        {{ form.csv_data.errors }}
+        {# <label for="{{ form.csv_data.id_for_label }}">csv_data:</label>#}
+        {{ form.csv_data.label_tag }}
+        {{ form.csv_data }}
+    </div>
+
+    <div class="fieldWrapper form_field_has_headers">
+        {{ form.has_headers.errors }}
+        {# <label for="{{ form.has_headers.id_for_label }}">has_headers:</label>#}
+        {{ form.has_headers.label_tag }}
+        {{ form.has_headers }}
+    </div>
+
+    <div class="fieldWrapper form_field_submit">
+        <input type="submit" value="Turn into usable stuff!" />
+    </div>
+
+</form>
