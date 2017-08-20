@@ -2,6 +2,9 @@
 
 A simple web-based utility that turns CSV/TSV data into something you can quickly paste into a Python shell and start working with. See: https://docs.python.org/3/library/functions.html#repr
 
+![Animated usage screenshot](csv-to-python.gif)
+
+
 ## Description
 
 This project exists to simplify the process of having some kind of textual data (usually CSV file exported from Excel or a database somewhere) and actually working with it in a structured way.
