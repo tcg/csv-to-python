@@ -1,13 +1,13 @@
 -i https://pypi.python.org/simple/
 defusedxml==0.6.0
-django==1.11.23
+django==1.11.29
 et-xmlfile==1.0.1
 gunicorn==19.7.1
 jdcal==1.4.1
-odfpy==1.4.0
-openpyxl==2.6.2
-pytz==2019.2
-pyyaml==5.1.2
+odfpy==1.4.1
+openpyxl==3.0.3
+pytz==2020.1
+pyyaml==5.3.1
 tablib==0.11.5
 unicodecsv==0.14.1
 whitenoise==3.3.0
